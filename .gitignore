@@ -1,0 +1,20 @@
+# --- challenge data: must never leave your laptop ---
+data/*
+!data/README.md
+*.xlsx
+*.xls
+*.csv
+*.pkl
+*.joblib
+password.txt
+
+# --- results and models (derived from the data) ---
+outputs/*
+!outputs/.gitkeep
+
+# --- environment and system files ---
+venv/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
